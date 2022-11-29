@@ -17,7 +17,7 @@
   </head>
   <body>
     <div class="text-center">
-      <img src="<?php echo base_url(); ?>\assets\images\juego.jpg" alt="logo1" height="100">
+      <img src="<?php echo base_url(); ?>\assets\images\juego.jpg" alt="juego" height="100">
     </div>
     <nav class="navbar navbar-inverse">
   <div class="container-fluid">
@@ -38,8 +38,8 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Accesorios <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="<?php echo site_url('profesores/profesor'); ?>">Listado Accesorios</a></li>
-            <li><a href="<?php echo site_url('profesores/nuevo_profesor'); ?>">Nuevo Accesorios</a></li>
+            <li><a href="<?php echo site_url('accesorios/profesor'); ?>">Listado Accesorios</a></li>
+            <li><a href="<?php echo site_url('accesorios/nuevo_profesor'); ?>">Nuevo Accesorios</a></li>
           </ul>
         </li>
         <li class="dropdown">
